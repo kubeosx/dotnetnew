@@ -1,0 +1,25 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "dotnetnew"
+  annotations:
+    github.com/project-slug: kubeosx/dotnetnew
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/kubernetes-id: "dotnetnew"
+    backstage.io/kubernetes-namespace: "dev"
+    prometheus.io/alert: all
+  tags:
+    - dotnet
+    - webapi
+  links:
+    - url: https://github.com/kubeosx/dotnetnew
+      icon: web
+      title: Github
+    - url: https://github.com/kubeosx/dotnetnew/issues
+      icon: web
+      title: Github Issues
+spec:
+  type: service
+  lifecycle: experimental
+  owner: 
+  system:  
